@@ -1,0 +1,25 @@
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+  color: #61dafb;
+  font-weight: bold;
+}
+
+.logo-icon {
+  margin: 0 10px;
+}
+
+.tachometer {
+  color: #4caf50;
+}
+
+.check {
+  color: #ff9800;
+}
+
+.logo-text {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}

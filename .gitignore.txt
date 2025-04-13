@@ -1,0 +1,29 @@
+# Backend
+nostress-backend-service/target/
+nostress-backend-service/.idea/
+nostress-backend-service/.classpath
+nostress-backend-service/.project
+nostress-backend-service/.settings/
+nostress-backend-service/.env
+nostress-backend-service/results.jtl
+nostress-backend-service/html-report/
+
+# Frontend
+nostress-frontend-ui/node_modules/
+nostress-frontend-ui/.env
+nostress-frontend-ui/build/
+nostress-frontend-ui/.DS_Store
+
+# General
+*.log
+*.tmp
+*.bak
+*.swp
+*.iml
+.DS_Store
+.env
+.env.*
+
+# OS-specific
+Thumbs.db
+Desktop.ini

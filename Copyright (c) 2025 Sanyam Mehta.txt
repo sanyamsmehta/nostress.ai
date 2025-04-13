@@ -1,0 +1,20 @@
+Copyright (c) 2025 NoStress Labs
+
+All rights reserved.
+
+This software and associated documentation files (the "Software") are proprietary to Sanyam Mehta.
+
+Unauthorized copying of this file, via any medium, is strictly prohibited.
+
+You may not:
+
+- Use, copy, modify, merge, publish, or distribute the Software
+- Sublicense or sell copies of the Software
+- Share or distribute derivative works
+
+The Software is provided "as is", without warranty of any kind.
+
+If you are interested in using this Software, please contact the author (Sanyam Mehta) for commercial licensing.
+
+Sanyam Mehta
+University of Washington – Seattle  

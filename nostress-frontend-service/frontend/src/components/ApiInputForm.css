@@ -1,0 +1,135 @@
+/* .form-container {
+    background-color: #1e1e2f;
+    border-radius: 10px;
+    padding: 20px;
+    max-width: 600px;
+    margin: 20px auto;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+    color: #dcdcdc;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+    text-align: left;
+  }
+  
+  label {
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    margin-bottom: 8px;
+    font-size: 16px;
+  }
+  
+  .icon {
+    margin-right: 8px;
+    color: #61dafb;
+  }
+  
+  input,
+  textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #333;
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: #2b2b40;
+    color: #dcdcdc;
+  }
+  
+  textarea {
+    height: 100px;
+  }
+  
+  input:focus,
+  textarea:focus {
+    outline: none;
+    border-color: #61dafb;
+  }
+  
+  .submit-button {
+    background-color: #61dafb;
+    color: #1e1e2f;
+    border: none;
+    border-radius: 5px;
+    padding: 12px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 100%;
+  }
+  
+  .submit-button:hover {
+    background-color: #4ca1e0;
+  }
+  
+  */
+  .form {
+    max-width: 1000px; /* Wider form to stretch across the screen */
+    margin: 0 auto; /* Center the form horizontally */
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .form-group {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    margin-bottom: 8px;
+    font-size: 16px;
+    color: #eaeaea; /* Subtle, light text */
+  }
+  
+  .icon {
+    margin-right: 8px;
+    color: #c8a165; /* Gold accent */
+  }
+  
+  input,
+  textarea {
+    width: 90%; /* Stretch input boxes across the form width */
+    max-width: 1000px;
+    padding: 15px;
+    border: 1px solid #2a2a2d; /* Dark border */
+    border-radius: 8px; /* Rounded corners */
+    font-size: 18px;
+    background-color: #2a2a2d; /* Dark gray background */
+    color: #eaeaea; /* Light gray text */
+  }
+  
+  textarea {
+    height: 150px;
+  }
+  
+  input:focus,
+  textarea:focus {
+    outline: none;
+    border-color: #c8a165; /* Gold border when focused */
+  }
+  
+  .submit-button {
+    background-color: #c8a165; /* Gold background */
+    color: #1c1c1e; /* Dark text for contrast */
+    border: none;
+    border-radius: 20px; /* Fully rounded button */
+    padding: 12px 30px; /* Shorter, compact button */
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+  }
+  
+  .submit-button:hover {
+    background-color: #b28d56; /* Muted gold hover */
+  }
+  
+  .submit-button:active {
+    background-color: #967544; /* Slightly darker gold on click */
+  }
+  

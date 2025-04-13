@@ -1,0 +1,124 @@
+/* .App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
+
+
+
+/*STABLE VERSION*/
+/* 
+body {
+  margin: 0;
+  font-family: "Arial", sans-serif;
+  background-color: #1c1c1e; // Deep dark gray
+  color: #eaeaea; // Light gray for text 
+}
+
+.App {
+  text-align: center;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center; // Center horizontally
+}
+
+.App-header {
+  background-color: #1c1c1e; // Deep dark gra
+  color: #c8a165; // Gold text for the title
+  padding: 20px 20px; //Reduce padding to make header more compact
+}
+
+.App-header p {
+  font-size: 1.2rem;
+  margin-top: 10px;
+  font-weight: 300;
+  color: #eaeaea; /* Subtle light gray
+}
+
+main {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center main content horizontally
+  justify-content: flex-start; /* Shift content closer to the top
+  padding-top: -1000px; /* Slight padding for separation
+  width: 100%; /* Ensure form stretches across available width
+}
+
+.App-footer {
+  display: none; /* Footer removed
+} */
+
+
+.App-status {
+  font-size: 1.2rem;
+  color: #f0a500; /* Gold color for status */
+  margin-top: 20px;
+}
+
+.App-result {
+  background-color: #121212; /* Black background */
+  color: #f9d342; /* Gold text */
+  border: 1px solid #f9d342; /* Gold border */
+  border-radius: 10px;
+  padding: 20px;
+  max-width: 80%;
+  margin: 20px auto;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+}
+
+.App-result h2 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  color: #f9d342; /* Gold text */
+}
+
+.App-result pre {
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+
+
+
+
+
+
+
+
+
+
+
