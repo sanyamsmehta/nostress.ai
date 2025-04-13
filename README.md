@@ -1,10 +1,9 @@
-# nostress.ai #
-
-NoStress is a microservice-based platform for automating performance testing of REST APIs using JMeter and a clean frontend UI.  
-It enables users to run tests by simply entering a repo URL and a test prompt, and visualizes results in an HTML report.
+## nostress.ai
+---
+#### NoStress is a microservice-based platform for automating performance testing of REST APIs using JMeter and a clean frontend UI. It enables users to run tests by simply entering a repo URL and a test prompt, and visualizes results in an HTML report.
 ---
 
-## Technologies Used  ⚙️
+### Technologies Used  ⚙️
 
 - **Java 17**, Spring Boot 3
 - **Apache JMeter 5.6.3**
@@ -12,7 +11,7 @@ It enables users to run tests by simply entering a repo URL and a test prompt, a
 - **Maven**, Node.js
 ---
 
-## 🚀 Getting Started
+### 🚀 Getting Started
 
 ### 1. Clone the Repository
 ```bash
@@ -23,12 +22,12 @@ cd nostress-platform
 
 ### 2. Backend Setup (nostress-backend-service)   🖥️
 
-Prerequisites
+**Prerequisites**
 - Java 17+
 - Apache JMeter installed locally
 - Maven
 
-Run the Backend
+**Run the Backend**
 ```bash
 cd nostress-backend-service
 ./mvnw spring-boot:run
@@ -44,23 +43,21 @@ String reportPath = "./html-report";
 
 ### 3. Frontend Setup (nostress-frontend-ui)  🌐
 
-Prerequisites
+**Prerequisites**
 - Node.js 18+
 - npm or yarn
 
 Run the Frontend
----
-
 ```bash 
 cd nostress-frontend-ui
 npm install
 npm start
 
 ```
-Open your browser at http://localhost:3000 to start testing.
+### 4. Open your browser at http://localhost:3000 to start testing.
 ---
 
-##  How It Works  📊
+###  How It Works  📊
 
 - User inputs a repo URL and test prompt in the UI.
 - Backend generates or reads a .jmx file for JMeter.
@@ -71,12 +68,12 @@ Open your browser at http://localhost:3000 to start testing.
 - User sees test progress and results on screen.
 
 
-## Sample Test Output 🧪 
+### Sample Test Output 🧪 
 
 - results.jtl: Raw JMeter output
 - html-report/index.html: Human-friendly report with graphs and metrics
 - console.log: logs
 
 ---
-### 👨‍💻 Developed By: Sanyam Mehta
+#### 👨‍💻 Developed By: Sanyam Mehta
 ---
