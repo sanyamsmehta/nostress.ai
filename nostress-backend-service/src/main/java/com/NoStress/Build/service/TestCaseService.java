@@ -113,6 +113,7 @@ public class TestCaseService {
 
     private static final Logger logger = LoggerFactory.getLogger(TestCaseService.class);
     private static final String OPENAI_API_URL = "https://api.openai.com/v1/chat/completions";
+    String apiKey = System.getenv("OPENAI_API_KEY");
     private static final String OPENAI_API_KEY = "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";
 
     public String generateAndExecuteTest(String apiUrl, String prompt) throws IOException {
