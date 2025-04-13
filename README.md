@@ -1,6 +1,6 @@
-# nostress.ai
+# nostress.ai #
 
-**NoStress** is a microservice-based platform for automating performance testing of REST APIs using JMeter and a clean frontend UI.  
+NoStress is a microservice-based platform for automating performance testing of REST APIs using JMeter and a clean frontend UI.  
 It enables users to run tests by simply entering a repo URL and a test prompt, and visualizes results in an HTML report.
 ---
 
@@ -78,5 +78,5 @@ Open your browser at http://localhost:3000 to start testing.
 - console.log: logs
 
 ---
-## 👨‍💻 Developed By: Sanyam Mehta
+### 👨‍💻 Developed By: Sanyam Mehta
 ---
